@@ -7,8 +7,14 @@
 declare namespace _ZoteroTypes {
   interface Prefs {
     PluginPrefsMap: {
-      "enable": boolean;
-      "input": string;
+      "automatic": boolean;
+      "cpdfPath": string;
+      "squeeze": boolean;
+      "minSavingsPercent": number;
+      "minSavingsBytes": number;
+      "notifications": boolean;
+      "keepBackup": boolean;
+      "debug": boolean;
     };
   }
 }

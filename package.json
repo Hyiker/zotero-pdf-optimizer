@@ -1,24 +1,24 @@
 {
-  "name": "zotero-plugin-template",
+  "name": "zotero-pdf-optimizer",
   "type": "module",
-  "version": "3.1.0",
-  "description": "Zotero Plugin Template",
+  "version": "0.1.0",
+  "description": "Safely optimize Zotero PDF attachments with CPDF.",
   "config": {
-    "addonName": "Zotero Plugin Template",
-    "addonID": "addontemplate@euclpts.com",
-    "addonRef": "addontemplate",
-    "addonInstance": "AddonTemplate",
-    "prefsPrefix": "extensions.zotero.addontemplate"
+    "addonName": "Zotero PDF Optimizer",
+    "addonID": "zotero-pdf-optimizer@hyiker.github.io",
+    "addonRef": "zoteropdfoptimizer",
+    "addonInstance": "ZoteroPDFOptimizer",
+    "prefsPrefix": "extensions.zotero.zoteropdfoptimizer"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/windingwind/zotero-plugin-template.git"
+    "url": "git+https://github.com/Hyiker/zotero-pdf-optimizer.git"
   },
-  "author": "windingwind",
+  "author": "Carbene Hu",
   "bugs": {
-    "url": "https://github.com/windingwind/zotero-plugin-template/issues"
+    "url": "https://github.com/Hyiker/zotero-pdf-optimizer/issues"
   },
-  "homepage": "https://github.com/windingwind/zotero-plugin-template#readme",
+  "homepage": "https://github.com/Hyiker/zotero-pdf-optimizer#readme",
   "license": "AGPL-3.0-or-later",
   "scripts": {
     "start": "zotero-plugin serve",
